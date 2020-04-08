@@ -22,7 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
 ### react ###
 .DS_*
 *.log
@@ -39,5 +38,7 @@ psd
 thumb
 sketch
 
-
-
+.env
+.env.example
+.env.local
+.env.staging
