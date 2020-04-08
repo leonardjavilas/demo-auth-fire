@@ -11,7 +11,6 @@ const App = () => {
   return (
     <AuthProvider>
       <Router>
-        <Redirect to={"/login/signin"} />
         <div className="wrapper">
           <PrivateRoute exact path="/" component={Home} />
           <Route exact path="/login/signin" component={Login} />
