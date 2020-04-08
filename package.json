@@ -2,6 +2,9 @@
   "name": "app-demo",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "bootstrap": "^4.4.1",
     "firebase": "^7.13.2",
